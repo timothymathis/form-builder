@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "SHORT_TEXT",
+    "displayText": "Short Text"
+  },
+  {
+    "id": 2,
+    "name": "LONG_TEXT",
+    "displayText": "Long Text"
+  },
+  {
+    "id": 3,
+    "name": "MULTIPLE_CHOICE",
+    "displayText": "Multiple Choice"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "name": "form-builder",
+  "version": "1.0.0",
+  "description": "A really cool thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "./node_modules/.bin/webpack-dev-server",
+    "start:api": "node src/srv/index.js",
+    "start": "concurrently 'npm run start:dev' 'npm run start:api'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "css-loader": "^0.28.9",
+    "enzyme": "^3.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jest": "^22.3.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "cors": "^2.8.4",
+    "mongoose": "^5.3.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "reactstrap": "^5.0.0-beta",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  }
+}

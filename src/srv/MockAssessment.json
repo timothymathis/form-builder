@@ -1,0 +1,50 @@
+{
+  "id": 1,
+  "name": "Project Manager Assessment",
+  "questions": [
+    {
+      "id": 1,
+      "type": "MULTIPLE_CHOICE",
+      "order": 1,
+      "text": "A multiple choice question",
+      "required": false,
+      "descriptionEnabled": false,
+      "description": "",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Option 1",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "text": "Option 2",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "text": "Option 3",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "SHORT_TEXT",
+      "order": 2,
+      "text": "A short text question",
+      "required": true,
+      "descriptionEnabled": true,
+      "description": "A description for a short text question"
+    },
+    {
+      "id": 3,
+      "type": "LONG_TEXT",
+      "order": 3,
+      "text": "A long text question",
+      "required": false,
+      "descriptionEnabled": false,
+      "description": ""
+    }
+  ]
+}
